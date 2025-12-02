@@ -1,0 +1,29 @@
+1. So pomosh na CSS moze da stilizirame web stranici
+2. CSS (Cascading Style Sheets) e standarden jazik so koj se opishuva izgledot na HTML documentot
+3. Nacini za povrzuvanje CSS so HTML
+  - Inline css
+  - internal css (vnatreshen css)
+  - external css (nadvoreshen css). --> Vo praksa najchesto i najprofesionalno e da se koristi ovoj external(nadvoreshen) CSS
+4. Tipovi na selektori:
+  - Selektor po element (type selector), se vpisuva imeto na elementot (p, h1, div) i stilot vazi za site takvi elementi na stranicata
+  - selektor po id - se koristi so # pred imeto (#header) i targetira tocno eden unikaten elementot
+  - selektor po klasa (class)
+
+
+
+
+5. Apsolutni edinici imaat fiksna golemina i ne se menuvaat:
+  - px(piksel) -> najcesto koristena apsolutna edinica za web dizajn
+
+6. Relativni edinici
+  - em -> relativna edinica koja e vo odnos na goleminata na fontot na roditelskiot element (na primer 2em = dvojno pogolema od roditelot)
+  - rem -> relativna vo odnost na goleminata na fontot na roditelskiot element
+  - % (procenti) -> relativni vo odnost na roditelskiot element
+  - vw (viewport width) -> 1vw = 1% od shirinata na pregleduvachost
+  - vh (viewport height) -> 1vh = 1% od visinata na pregleduvacot
+
+  7. Edinici za boja
+   - hex -> #7bbc39ff
+   - tekst -> yellow
+   - rgb -> rgb(150, 30, 150)
+   - rgba -> rgba(209, 15, 15, 1)

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      html {
+        font-size: 16px;
+      }
+      body {
+        margin: 0;
+        line-height: 1.6;
+        background: rgb(232, 232, 232);
+      }
+
+      h1 {
+        margin: 0px;
+      }
+      h2 {
+        margin: 0px;
+      }
+
+      #site-header {
+        background: linear-gradient(135deg, #4f46e5, #5abde5);
+        color: white;
+        border-bottom: 1px solid rgb(18, 36, 94);
+
+        padding: 0.7rem;
+        text-align: center;
+      }
+
+      .container {
+        height: 76vh;
+        width: 70%;
+        margin: 0 auto;
+      }
+
+      .card {
+        background: white;
+        border: 1px solid #f7f7f7;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding: 1rem;
+        border-radius: 1rem;
+        box-shadow: 0px 3px 24px #202020;
+        text-align: center;
+      }
+
+      .btn {
+        padding: 0.6rem 1rem;
+        border-radius: 10px;
+        text-decoration: none;
+        cursor: pointer;
+        margin: 2rem;
+      }
+      .primary {
+        background: #4f46e5;
+        color: white;
+        box-shadow: 0 6px 16px #4139d5;
+      }
+
+      .primary:hover {
+        box-shadow: 0 10px 24px #4139d5;
+      }
+      .warning {
+        background: #ee3b17;
+        color: white;
+        box-shadow: 0 6px 16px #62220d;
+      }
+      .warning:hover {
+        box-shadow: 0 10px 24px #361206;
+      }
+      .zabeleska {
+        font-size: 0.65rem;
+        background: rgb(173, 247, 255);
+        display: inline-block;
+        padding: 4px;
+        border-radius: 20;
+        box-shadow: 0 1px 10px #c6c6c6;
+      }
+      .footer {
+        background-color: #202020;
+        padding: 1rem;
+        color: white;
+        text-align: center;
+        letter-spacing: 0.5px;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="site-header">
+      <h1>Embeded <span>CSS</span></h1>
+      <p class="naslov">Voved vo css selektori</p>
+    </header>
+    <main class="container">
+      <section class="card">
+        <h2>Test stilovi</h2>
+        <p>Ova e standarden pasus so golemina od 1 rem</p>
+        <p>Ovoj pasus e malku pogolem od 1 rem</p>
+        <p class="zabeleska">Zabeleska: ovoj element koristi 0.975 rem za pomal tekst</p>
+      </section>
+
+      <section class="card">
+        <h2>Kopcinja</h2>
+        <p>Blla bla bla bla</p>
+        <a class="btn primary" href="#">kopce</a>
+        <a class="btn warning" href="#">kopce</a>
+      </section>
+    </main>
+    <footer class="footer">2025 CSS Demonstracija</footer>
+  </body>
+</html>
