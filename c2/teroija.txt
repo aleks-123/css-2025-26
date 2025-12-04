@@ -1,0 +1,17 @@
+Delovi na elemnt
+
+- Content: Centralen del kade sto se prikazuva tekstot, width height
+- Padding: Rastojanie pomegju kontentot i granicata na elementot
+- Border: Samata ramka na elementot 
+- Margin: Rastojanie nadvor od borderot
+
+
+``````````
+
+Inline, Inline-Block i Block elementi vo CSS
+
+Block elementi (na pr. <div>, <p>, <h1>): zapocnuvaat so nova linija, Zafakjaat 100% shirina na rodileot, prifakjaat shirina, visina, margin, padding od site strani
+
+inline elementi (na pr, <span>, <a>, <strong>): Ne zaponcuvaat vo nova linija, zafakjaat prostor samo onolku kolku shto im treba, nemaat shirina i nemaat visina
+
+Inline-block elementi: Se redat na ista linija kako inline, no prifakjaat width, height, margin i padding od site strani kako block, idealni se za button

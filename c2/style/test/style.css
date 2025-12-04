@@ -1,0 +1,90 @@
+h1 {
+  color: red;
+  background-color: aqua;
+}
+
+.bukva {
+  color: green;
+}
+
+.primer {
+  font-weight: 800;
+}
+
+p {
+  background-color: blueviolet;
+}
+
+span {
+  background-color: aqua;
+  padding: 10px;
+  margin: 20px;
+  display: inline;
+}
+
+strong {
+  background-color: red;
+  padding: 20px;
+  height: 300px;
+  width: 300px;
+}
+
+.test {
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+}
+
+.element {
+  color: green;
+}
+
+h3 {
+  color: red;
+}
+
+#element {
+  color: blue;
+}
+
+.container {
+  background-color: lightblue;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item {
+  background-color: chartreuse;
+  height: 33px;
+  width: 33px;
+  margin: 4px;
+}
+
+.container1 {
+  background-color: lightblue;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.item1 {
+  background-color: chartreuse;
+  height: 33px;
+  width: 33px;
+  margin: 4px;
+}
+
+.itemtest1 {
+  flex: 1;
+}
+.itemtest2 {
+  flex: 2;
+}
+
+.itemtest3 {
+  flex: 2;
+}
+
+/* justify-content: start, end, center, space-between, space-around, space-evenlys  */
